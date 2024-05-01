@@ -80,8 +80,8 @@ int main() {
 	cout << "The password will be like this: [A1 B1]\n";
 	cout << "The password will be like this: [C1 D1]\n\n";
 
-	cout << "ONLY NUMBER ACCEPTABLE" << endl;
-	cout << "All the numbers can not be the same." << endl;
+	cout << "ONLY NUMBER IS ACCEPTABLE" << endl;
+	cout << "All the number can not be the same." << endl;
 	cout << "Enter 4 numbers password ";
 	cout << "\nEnter the first number: ";
 	while(true){
@@ -214,14 +214,10 @@ void PasswordEncryption(double EncodedPassword, double &A, double &B, double &C,
 
 	//Inverse numbers * coefficient
 	a2 = a * Coefficient1;
-	
 	b2 = b * Coefficient1;
-	
 	c2 = c * Coefficient1;
-	
 	d2 = d * Coefficient1;
 	
-
 	//Results
 	A1 = (A * a2) + (B * c2);
 	B1 = (A * b2) + (B * d2);
@@ -253,14 +249,10 @@ void PasswordDecryption(double EncodedPassword, double &A, double &B, double &C,
 
 	//Inverse numbers * coefficient
 	a4 = a3 * Coefficient2;
-	
 	b4 = b3 * Coefficient2;
-	
 	c4 = c3 * Coefficient2;
-	
 	d4 = d3 * Coefficient2;
 	
-
 	//Results
 	A3 = (A2 * a4) + (B2 * c4);
 	B3 = (A2 * b4) + (B2 * d4);
