@@ -298,3 +298,4 @@ bool isCoefficient(double Coefficient1, double Coefficient2){
 	return false;
 }
 */
+
